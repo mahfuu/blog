@@ -16,19 +16,17 @@ function App(){
       <header>
         This is header
       </header>
-      <div>
-        <nav>
-          <div>
-            <Link to="/blog">Blog</Link>
-          </div>
-          <div>
-            <Link to="/daughter">Daughter</Link>
-          </div>
-          <div>
-            <Link to="/newDaughter">New-Daughter</Link>
-          </div>
-        </nav>
-      </div>
+      <nav>
+        <div>
+          <Link to="/blog">Blog</Link>
+        </div>
+        <div>
+          <Link to="/daughter">Daughter</Link>
+        </div>
+        <div>
+          <Link to="/newDaughter">New-Daughter</Link>
+        </div>
+      </nav>
       <main>
         <Routes>
           <Route path="*" element={<Error />} />
